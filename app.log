@@ -1,0 +1,30 @@
+{"level":"error","message":"User not found","timestamp":"2024-09-19T15:43:32.880Z"}
+{"level":"warn","message":"User not found","timestamp":"2024-09-19T15:44:30.413Z"}
+{"level":"info","message":"User not found","timestamp":"2024-09-19T15:45:37.561Z"}
+{"level":"info","message":"User not found","timestamp":"2024-09-19T15:48:10.973Z"}
+{"level":"error","timestamp":"2024-09-20T06:03:00.831Z"}
+{"level":"info","timestamp":"2024-09-20T06:07:55.424Z"}
+{"level":"info","timestamp":"2024-09-20T06:08:44.602Z"}
+{"level":"info","timestamp":"2024-09-20T06:09:42.223Z"}
+{"level":"info","timestamp":"2024-09-20T06:09:59.956Z"}
+{"level":"info","message":"user updated successfully","timestamp":"2024-09-20T06:10:25.109Z"}
+{"level":"error","message":"User not found","timestamp":"2024-09-20T06:10:43.207Z"}
+{"level":"error","message":"User not found","timestamp":"2024-09-20T06:19:47.711Z"}
+{"level":"info","message":{"acknowledged":true,"matchedCount":1,"modifiedCount":0,"upsertedCount":0,"upsertedId":null},"timestamp":"2024-09-20T06:21:41.279Z"}
+{"level":"info","message":{"msg":"user updated successfully","user":{"acknowledged":true,"matchedCount":1,"modifiedCount":0,"upsertedCount":0,"upsertedId":null}},"timestamp":"2024-09-20T06:31:33.792Z"}
+2024-09-20T07:07:44.122Z [right meow!] info: Cast to ObjectId failed for value "66ec3bf7082136a585f3a23" (type string) at path "_id" for model "register"
+2024-09-20T07:08:43.638Z [BOBO!] info: Cast to ObjectId failed for value "66ec3bf7082136a585f3a23" (type string) at path "_id" for model "register"
+2024-09-20T07:14:53.211Z [BOBO!] info: Cast to ObjectId failed for value "66ec3bf7082136a585f3a23" (type string) at path "_id" for model "register"
+2024-09-20T07:26:47.291Z [BOBO!] error: Cast to ObjectId failed for value "66ec3bf7082136a585f3a23" (type string) at path "_id" for model "register" - CastError: Cast to ObjectId failed for value "66ec3bf7082136a585f3a23" (type string) at path "_id" for model "register"
+    at SchemaObjectId.cast (C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaType.applySetters (C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaType.castForQuery (C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at Query.cast (C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\query.js:4786:12)
+    at Query._castConditions (C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\query.js:2199:10)
+    at model.Query._findOne (C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\query.js:2513:8)
+    at model.Query.exec (C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\query.js:4330:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async update (file:///C:/Users/Najmusahar%20Kalkoti/React/New%20folder%20(2)/backend/controller/registerController.js:75:16)
+2024-09-20T07:30:03.178Z [BOBO!] error: User not found
+2024-09-20T07:30:56.622Z [BOBO!] error: [object Object]
