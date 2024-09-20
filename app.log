@@ -28,3 +28,61 @@
     at async update (file:///C:/Users/Najmusahar%20Kalkoti/React/New%20folder%20(2)/backend/controller/registerController.js:75:16)
 2024-09-20T07:30:03.178Z [BOBO!] error: User not found
 2024-09-20T07:30:56.622Z [BOBO!] error: [object Object]
+2024-09-20T10:22:11.163Z [BOBO!] error: Email already exists
+2024-09-20T10:22:57.690Z [BOBO!] info: User registered successfully
+2024-09-20T10:24:19.954Z [BOBO!] error: register validation failed: email: Path `email` is required. - ValidationError: register validation failed: email: Path `email` is required.
+    at Document.invalidate (C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\document.js:3289:32)
+    at C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\document.js:3050:17
+    at C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1388:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2024-09-20T10:25:28.949Z [BOBO!] info: {
+  _id: new ObjectId('66ec3bf7082136a585f3a236'),
+  name: 'najmusahar',
+  email: 'najmu@gmail.com',
+  password: '$2a$10$5Je9.oYRFurYPrglDdF62e0CwHrnwbiZZejHsM2VFe00hoXLbgWXq',
+  phone: '9902823247',
+  role: 'ADMIN',
+  __v: 0
+},{
+  _id: new ObjectId('66ed4d018214966fcff1aa0c'),
+  name: 'najmusahar kalkoti',
+  email: 'najmu1@gmail.com',
+  password: '$2a$10$5e3PdnF2KnsUDbe8lJdTIOfm11seQMqgxcNne1PH2Wq7RwwGcnS8K',
+  phone: '9902823247',
+  role: 'ADMIN',
+  __v: 0
+}
+2024-09-20T10:30:38.296Z [BOBO!] info: Deleted Successfully
+2024-09-20T10:30:51.923Z [BOBO!] error: Cast to ObjectId failed for value "66ed4d018214966fcff1aa0" (type string) at path "_id" for model "register" - CastError: Cast to ObjectId failed for value "66ed4d018214966fcff1aa0" (type string) at path "_id" for model "register"
+    at SchemaObjectId.cast (C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaType.applySetters (C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaType.castForQuery (C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at Query.cast (C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\query.js:4786:12)
+    at Query._castConditions (C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\query.js:2199:10)
+    at model.Query._findOneAndDelete (C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\query.js:3421:8)
+    at model.Query.exec (C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\query.js:4330:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async deleteUser (file:///C:/Users/Najmusahar%20Kalkoti/React/New%20folder%20(2)/backend/controller/registerController.js:80:27)
+2024-09-20T10:30:56.929Z [BOBO!] error: user not found
+2024-09-20T10:32:39.695Z [BOBO!] warn: 66ec3bf7082136a585f3a235
+2024-09-20T10:32:39.701Z [BOBO!] error: User id not valid 66ec3bf7082136a585f3a235
+2024-09-20T10:33:07.687Z [BOBO!] warn: 66ec3bf7082136a585f3a236
+2024-09-20T10:33:07.699Z [BOBO!] error: register validation failed: password: Path `password` is required. - ValidationError: register validation failed: password: Path `password` is required.
+    at Document.invalidate (C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\document.js:3289:32)
+    at C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\document.js:3050:17
+    at C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1388:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2024-09-20T10:35:29.893Z [BOBO!] warn: 66ec3bf7082136a585f3a236
+2024-09-20T10:35:29.898Z [BOBO!] error: register validation failed: password: Path `password` is required. - ValidationError: register validation failed: password: Path `password` is required.
+    at Document.invalidate (C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\document.js:3289:32)
+    at C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\document.js:3050:17
+    at C:\Users\Najmusahar Kalkoti\React\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1388:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2024-09-20T10:35:38.360Z [BOBO!] warn: 66ec3bf7082136a585f3a236
+2024-09-20T10:35:38.530Z [BOBO!] info: password changed successfully
+2024-09-20T10:36:15.497Z [BOBO!] warn: 66ec3bf7082136a585f3a235
+2024-09-20T10:36:15.513Z [BOBO!] error: User id not valid 
+2024-09-20T10:38:03.803Z [BOBO!] info: Login successfull
+2024-09-20T10:38:16.777Z [BOBO!] info: Incorrect password
+2024-09-20T10:38:25.045Z [BOBO!] error: Email not found
